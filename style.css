@@ -1,0 +1,89 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 3rem;
+  margin-top: 2.5rem;
+}
+
+#playerScore, #computerScore {
+  font-size: 3rem;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 15vh;
+}
+
+#score-board {
+  font-family: 'Bangers', cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#score {
+  padding-top: 3rem;
+}
+
+.rolls {
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+#rollDiv {
+  display: none;
+}
+
+#text {
+  font-family: 'Bangers', cursive;
+  font-size: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding-top: 3rem;
+}
+
+.players {
+  width: 7.5rem;
+  height: 7rem;
+  padding: 1rem 3.5rem;
+  
+}
+
+#announcer {
+  font-family: 'Bangers', cursive;
+  font-size: 2.75rem;
+  padding-top: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.items {
+  padding: 1.5rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  width: 10rem;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.3s;
+}
+
+.items:hover {
+  transform: scale(1.2);
+}
